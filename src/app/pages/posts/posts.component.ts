@@ -19,4 +19,8 @@ export class PostsComponent implements OnInit {
     })
   }
 
+  onClickSomeChild(id:number){
+    console.log("Hijo clickeado:" + id);
+  }
+
 }
